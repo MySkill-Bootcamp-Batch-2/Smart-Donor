@@ -1,8 +1,8 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+
 
 const Navbar: React.FC = () => {
-  const navigate = useNavigate()
+
   return (
 
     <nav className='bg-rose-300 z-50 overflow-hidden shadow-gray-300 shadow-md h-[10vh]  ||  mobile-s:h-[10vh] mobile-m:h-[10vh] mobile-l:items-center mobile-l:h-[10vh]  ||  sm:sticky sm:top-0 sm:flex sm:items-center md:flex md:h-[10vh] md:items-center md:justify-around lg:h-[10vh] lg:flex lg:flex-row lg:items-center lg:justify-around xl:h-[10vh] xl:flex xl:justify-around xl:items-center 2xl:h-[10vh] 2xl:flex 2xl:flex-row 2xl:justify-around 2xl:items-center'>
